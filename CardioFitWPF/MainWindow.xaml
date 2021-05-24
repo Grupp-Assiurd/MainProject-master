@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CardioFitWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="CardioFit" Height="450" Width="800">
     <Grid>
+        <Button x:Name="btn_FreqBtmMaxMin" Content="Frequenza Massima-Minima" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" RenderTransformOrigin="1,0.5" Height="87" Width="190" Click="btn_FreqBtmMaxMin_Click"/>
+        <Button x:Name="btn_BaticardiaNormaleTachicardia" Content="Baticardia Normale Tachicardia" HorizontalAlignment="Left" Margin="205,105,0,0" VerticalAlignment="Top" Height="87" Width="222" Click="btn_BaticardiaNormaleTachicardia_Click"/>
 
     </Grid>
 </Window>

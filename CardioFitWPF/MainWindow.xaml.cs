@@ -24,5 +24,17 @@ namespace CardioFitWPF
         {
             InitializeComponent(); 
         }
+
+        private void btn_FreqBtmMaxMin_Click(object sender, RoutedEventArgs e)
+        {
+            FrequenzaMassimaMinima frequenza = new FrequenzaMassimaMinima();
+            frequenza.Show();
+        }
+
+        private void btn_BaticardiaNormaleTachicardia_Click(object sender, RoutedEventArgs e)
+        {
+            BaticardiaNormaleTachicardia baticardiaTachicardia = new BaticardiaNormaleTachicardia();
+            baticardiaTachicardia.Show();
+        }
     }
 }
